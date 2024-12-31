@@ -17,10 +17,8 @@ const projects = [
             <div className="project-container">
 
               <div className="project-description">
-              <div>
               <p>From February 7 to 15, 2024, CET Bulgaria hosted the Erasmus+ program "Cultivating Skills for a Brighter Future" in Youthopia, Stara Zagora. This personal development initiative brought together 27 participants from Bulgaria, Greece, Romania, Italy, and Serbia, aiming to empower young people with self-discovery techniques, goal-setting skills, and mindfulness practices. Facilitated by the experienced Tihomira, the program combined engaging activities with a supportive environment, enabling participants to uncover their potential and create actionable strategies for their futures.</p>
-          <div> <SlideShow /></div>
-              </div>
+              <div> <SlideShow /></div>
               </div>
 
               <div className="project-goals-container">
@@ -72,10 +70,10 @@ const projects = [
           <div className="project-container">
 
             <div className="project-description">
-            <div>
+            
             <p>From April 8-16, 2024, Stara Zagora, Bulgaria, hosted Digital Creativity for Youth Workers: Exploration, Mastery, Impact!, a transformative training course under KA153. The program equipped youth workers with advanced digital skills, including photography, video editing, and digital marketing. Participants explored emerging technologies like artificial intelligence and learned to create engaging content in various formats, such as PDF books and audio files. Emphasizing ethical practices, the training empowered participants to craft impactful digital content, connect effectively with their audiences, and adapt to the fast-evolving digital landscape. The course was conducted entirely in English and provided hands-on, practical learning experiences.</p>
             <div> <SlideShow /></div>
-            </div>
+            
             </div>
 
             <div className="project-goals-container">
@@ -128,10 +126,10 @@ const projects = [
           <div className="project-container">
 
             <div className="project-description">
-            <div>
+          
             <p>From June 11-19, 2024, Stara Zagora, Bulgaria, hosted Our Stories, Our Stage, a transformative youth exchange designed to foster civic sensitivity toward human rights and democracy among European youth. Through informal educational methods such as storytelling, theater, and political simulations, participants explored their potential while gaining valuable skills not typically addressed in traditional education. A highlight of the program was the creation of a state-like simulation game, which encouraged participants to think critically, collaborate, and engage creatively with civic concepts.</p>
             <div> <SlideShow /></div>
-            </div>
+            
             </div>
 
             <div className="project-goals-container">
@@ -184,10 +182,10 @@ const projects = [
           <div className="project-container">
 
             <div className="project-description">
-           <div>
+        
             <p>"The State of Mind" is an Erasmus+ training course that took place from 20th to 27th November 2024 in Bulgaria. This innovative program focused on designing interactive political games, where participants explored the complexities of navigating political systems. The course incorporated the power of artificial intelligence to fuel creativity in youth work, blending traditional art with modern technology. Through hands-on workshops, participants created engaging, dynamic experiences, including digital art, animations, and original music compositions, showcasing the potential of AI in fostering creativity and developing new tools for youth work.</p>
-            <div> <SlideShow /></div>
-            </div>
+          <div> <SlideShow /></div>
+           
             </div>
 
             <div className="project-goals-container">

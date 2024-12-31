@@ -58,3 +58,16 @@
     color: var(--secondary); /* Change text color to dark */
     transition: all 0.3s ease-out;
 }
+@media screen and (max-width: 480px){
+  
+    .btn {
+     margin-left: -20px;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .btn {
+        margin-left: -20px;
+   
+       }  
+}
