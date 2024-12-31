@@ -1,0 +1,167 @@
+/* Footer Container */
+.footer-container {
+    background-color: #4c586f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    
+    height: 200px;
+  }
+  
+  /* Footer Links Section */
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 2rem; */
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.5rem;
+  }
+  
+  .footer-link-items h2  {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .footer-link-items a:hover{
+    transform: translateY(-5px); 
+    
+  }
+  .footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    /* margin-bottom: 0.5rem; */
+    font-size: 25px;
+  }
+
+  .footer-link-items a:hover {
+    color: #1151c7;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Footer Social Icons Section */
+  .footer-link-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icon-link {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+   
+  }
+  
+  .footer-logo img {
+  width: 60px;
+  height: auto;
+  }
+  .footer-logo img:hover{
+    transform: translateY(-5px);
+  }
+  .website-rights {
+    color: #fff;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    margin-right: 350px;
+ 
+  }
+  .social-logo{
+    margin-left: 45px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 960px){
+    .website-rights {
+     
+      margin-right: 320px;
+   
+    }
+    
+}
+  @media screen and (max-width: 768px) {
+    
+    .footer-container {
+      height: 100%;
+      
+      }
+      .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column; 
+        margin-left: 15px;
+      }
+      .website-rights {
+     
+        margin-right: 250px;
+     
+      }
+      .social-icon-link {
+        margin: 0.5rem;
+      }
+    }
+   
+
+  @media screen and (max-width: 480px) {
+    .footer-container {
+    height: 100%;
+    
+    }
+    .footer-link-items h2 {
+      font-size: 16px;
+    }
+  
+    .footer-link-items a {
+      font-size: 20px;
+    }
+  
+    .website-rights {
+      font-size: 12px;
+      /* margin-right: 350px; */
+    }
+    .social-media-wrap {
+      margin-left: 0px;
+    }
+    .social-media-wrap small{
+      margin-left: 290px;
+      width: 200px;
+      margin-top: 15px;
+    }
+  }
+  

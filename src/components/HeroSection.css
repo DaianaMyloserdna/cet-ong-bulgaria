@@ -1,0 +1,75 @@
+.hero-container{
+    background-image: url('6_n.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: moveBackground 20s linear infinite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0; /* Start at top-left */
+    }
+    50% {
+        background-position: 100% 100%; /* Moves diagonally to the bottom-right */
+    }
+    75% {
+        background-position: 50% 50%; /* Moves back slightly */
+    }
+    100% {
+        background-position: 0 0; /* Moves back to the initial position */
+    }
+}
+.hero-container > h1{
+    color: #fff;
+    font-size: 90px;   
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   }
+.hero-container > p{
+    color: #fff;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.hero-btns{
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        font-size: 50px;
+    }
+    .hero-container > p {
+        font-size: 30px;
+    }
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-container h1 {
+        font-size: 45px;
+        margin-top: 200px;
+        margin-left: 25px;
+        
+       
+    }
+    .hero-container p {
+        font-size: 30px;
+    }
+}

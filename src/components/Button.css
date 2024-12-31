@@ -1,0 +1,60 @@
+:root {
+    --primary: #fff;
+    --secondary: #242424; /* Add a secondary color for text */
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Default font size for buttons */
+    font-weight: 600; /* Make text bolder */
+    transition: all 0.3s ease-out; /* Ensure smooth transitions */
+}
+
+/* Primary button style */
+.btn--primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+}
+
+/* Outline button style */
+.btn--outline {
+    background-color: transparent;
+    color: var(--primary); /* Set text color to primary (white in this case) */
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+
+}
+
+/* Hover effect for outline buttons */
+.btn--outline:hover {
+    background-color: var(--primary); /* On hover, set background to white */
+    color: var(--secondary); /* Text color becomes black */
+    border: 1px solid var(--primary); /* Keep the border the same on hover */
+}
+
+/* Medium button size */
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px; /* Font size for medium buttons */
+}
+
+/* Large button size */
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px; /* Font size for large buttons */
+}
+
+/* Hover effect for medium and large buttons */
+.btn--medium:hover, .btn--large:hover {
+    background-color: var(--primary); /* Change background to primary (white) on hover */
+    color: var(--secondary); /* Change text color to dark */
+    transition: all 0.3s ease-out;
+}
