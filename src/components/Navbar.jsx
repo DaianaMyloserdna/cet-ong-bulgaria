@@ -41,9 +41,10 @@ function Navbar() {
   return (
     <nav className='navbar'>
       <div className='navbar-container'>
-      <img className='navbar-img' src="logo.png" alt="logo" />
+      {/* <img className='navbar-img' src="logo-removebg.png" alt="logo" /> */}
         <Link to='/' className='navbar-logo'>
-        C:E:T Platform Bulgaria 
+        {/* C:E:T Platform Bulgaria  */}
+        <img className='navbar-img' src="logo-removebg.png" alt="logo" />
         </Link>
         
         {/* Menu icon */}
@@ -65,7 +66,12 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link to='/pictures' className='nav-links' onClick={closeMobileMenu}>
-             Pictures
+             Gallery
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/projectlocation' className='nav-links' onClick={closeMobileMenu}>
+         Location
             </Link>
           </li>
           <li className='nav-item'>

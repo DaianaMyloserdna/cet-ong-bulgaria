@@ -10,7 +10,7 @@ const projects = [
     {
         id: 1,
         name: "Cultivating Skills for Brighter Future",
-        description: "Read more about Cultivating Skills.",
+        description: "Read more",
         image: "Cultivating skills.jpg",
         path: "/project-one", // Added path for navigation
         details: (
@@ -54,7 +54,15 @@ const projects = [
                 </div>
                 </div>
               </div>
-
+              <div className="project-imgs">
+  <img src="/p1-1.jpg" alt="" />
+  <img src="/p1-2.jpg" alt="" />
+  <img src="/p1-3.jpg" alt="" />
+  <img src="/p1-4.jpg" alt="" />
+  <img src="/p1-5.jpg" alt="" />
+  <img src="/p1-6.jpg" alt="" />
+ 
+</div>
                {/*images  */}
 
             </div>
@@ -63,7 +71,7 @@ const projects = [
     {
         id: 2,
         name: "Digital Creativity for Youth Workers",
-        description: "Read more about Digital Creativity.",
+        description: "Read more",
         image: "Digital-creativity.png",
         path: "/project-2",
         details:(
@@ -110,6 +118,15 @@ const projects = [
               </div>
             </div>
 
+<div className="project-imgs">
+  <img src="/p2-1.png" alt="" />
+  <img src="/p2-2.jpg" alt="" />
+  <img src="/p2-3.jpg" alt="" />
+  <img src="/p2-4.jpg" alt="" />
+  <img src="/p2-5.jpg" alt="" />
+  <img src="/p2-6.jpg" alt="" />
+ 
+</div>
              {/*images  */}
 
           </div>
@@ -119,7 +136,7 @@ const projects = [
     {
         id: 3,
         name: "Our Stories - Our Stage",
-        description: "Read more about Our Stories-Our Stage.",
+        description: "Read more",
         image: "Our Stories - Our Stage.jpg",
         path: "/project-3",
         details: (
@@ -165,7 +182,15 @@ const projects = [
               </div>
               </div>
             </div>
-
+            <div className="project-imgs">
+  <img src="/p3-1.jpg" alt="" />
+  <img src="/p3-2.jpg" alt="" />
+  <img src="/p3-3.jpg" alt="" />
+  <img src="/p3-4.jpg" alt="" />
+  <img src="/p3-5.jpg" alt="" />
+  <img src="/p3-6.jpg" alt="" />
+ 
+</div>
              {/*images  */}
 
           </div>
@@ -175,8 +200,8 @@ const projects = [
     {
         id: 4,
         name: "The State of Mind",
-        description: "Read more about The State of Mind.",
-        image: "the-state-of-mind.jpg",
+        description: "Read more ",
+        image: "the-state-of-mind.png",
         path: "/project-4",
         details: (
           <div className="project-container">
@@ -222,7 +247,15 @@ const projects = [
               </div>
             </div>
 
-             {/*images  */}
+            <div className="project-imgs">
+  <img src="/p4-1.jpg" alt="" />
+  <img src="/p4-2.jpg" alt="" />
+  <img src="/p4-3.jpg" alt="" />
+  <img src="/p4-4.jpg" alt="" />
+  <img src="/p4-5.jpg" alt="" />
+  
+ 
+</div>      {/*images  */}
 
           </div>
         )

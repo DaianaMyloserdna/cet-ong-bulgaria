@@ -8,7 +8,7 @@
   }
 h1{
     font-size: 50px;
-    color: black;
+    color: #0071c6;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-top: 150px;
 }
@@ -42,7 +42,7 @@ h1{
   font-size: 30px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for text */
   margin-bottom: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .text-content p {
@@ -54,6 +54,7 @@ h1{
 
 /* Values Container Styling */
 .values-container {
+  margin-top: 80px;
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); /* Responsive grid */
   gap: 20px; 
@@ -69,7 +70,7 @@ h1{
 .icon {
   font-size: 50px; 
   margin-bottom: 15px; 
-  color: #007bff; 
+  color: #0071c6; 
 }
 
 .icon:hover {
@@ -111,7 +112,7 @@ h1{
   font-size: 30px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for text */
   margin-bottom: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-top: 150px;
 }
 .users-feedback{
@@ -125,10 +126,10 @@ h1{
   width: 150px;
   border-radius: 80px;
 }
-.users-feedback b{
-  text-decoration: overline;
-}
 
+.user-feedback-item .icon{
+  margin: 0;
+}
 .user-feedback-item {
   display: flex;
   flex-direction: column; 

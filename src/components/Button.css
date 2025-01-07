@@ -1,6 +1,6 @@
 :root {
     --primary: #fff;
-    --secondary: #242424; /* Add a secondary color for text */
+    --secondary:#0071c6; /* Add a secondary color for text */
 }
 
 .btn {

@@ -52,7 +52,7 @@
   }
 
   .footer-link-items a:hover {
-    color: #1151c7;
+    color: #0071c6;
     transition: 0.3s ease-in-out;
   }
   
@@ -80,8 +80,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    max-width: 1000px;
+    /* width: 90%;
+    max-width: 1000px; */
    
   }
   
@@ -97,21 +97,30 @@
     font-size: 14px;
     margin: auto;
     text-align: center;
-    margin-right: 350px;
+    margin-right: 280px;
  
   }
   .social-logo{
     margin-left: 45px;
   }
-  
+  .european-logo img{
+    width: 200px;
+  height: auto;
+  margin-right: -40px;
+  margin-top: 10px;
+  }
+
   /* Responsive Design */
   @media screen and (max-width: 960px){
     .website-rights {
      
-      margin-right: 320px;
+      margin-right: 260px;
    
     }
-    
+    .european-logo img{
+      margin-right: 10px;
+      width: 150px;
+    }
 }
   @media screen and (max-width: 768px) {
     
@@ -124,16 +133,24 @@
     }
   
     .social-media-wrap {
-      flex-direction: column; 
-        margin-left: 15px;
+      flex-direction: row; 
+        /* margin-left: -40px; */
+        
       }
       .website-rights {
      
-        margin-right: 250px;
+        margin-right: 120px;
      
+      }
+      .footer-logo{
+        margin-left: 50px;
       }
       .social-icon-link {
         margin: 0.5rem;
+      }
+      .european-logo img{
+        margin-right: 50px;
+        width: 150px;
       }
     }
    
@@ -143,6 +160,7 @@
     height: 100%;
     
     }
+
     .footer-link-items h2 {
       font-size: 16px;
     }
@@ -150,18 +168,28 @@
     .footer-link-items a {
       font-size: 20px;
     }
-  
+    .social-media-wrap {
+      flex-direction: column;         
+      }
     .website-rights {
       font-size: 12px;
-      /* margin-right: 350px; */
+      margin-right: 50px;
     }
     .social-media-wrap {
-      margin-left: 0px;
+      margin-left:  -30px;
     }
     .social-media-wrap small{
-      margin-left: 290px;
-      width: 200px;
-      margin-top: 15px;
+      margin-left: 80px;
+     
+      
+    }
+    .footer-logo{
+      margin-left: 0px;
+      margin-right: 15px;
+    }
+    .european-logo img{
+      margin-left: 100px;
+   
     }
   }
   

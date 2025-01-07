@@ -1,56 +1,24 @@
-import React, { useState } from "react";
+import React, {useState} from 'react';
 import '../../App.css';
-import Footer from "../Footer";
-import './Pictures.css';
+import Footer from '../Footer';
+import './ProjectLocation.css';
 
-function Pictures() {
-    const images = [
-        '1_n.jpg', 
-        '2_n.jpg',
-        '4_n.jpg',
-        '5_n.jpg',
-        '6_n.jpg',
-        '7_n.jpg',
-        '8_n.jpg',
-        '9_n.jpg',
-        '10_n.jpg',
-        '11_n.jpg',
-        '12_n.jpg',
-        '13_n.jpg',
-        '14_n.jpg',
-        '15_n.jpg',
-        '16_n.jpg',
-        '17_n.jpg',
-        '18_n.jpg',
-        '19_n.jpg',
-        '20_n.jpg',
-        'p1-1.jpg',
-        'p1-2.jpg',
-        'p1-3.jpg',
-        'p1-4.jpg',
-        'p1-5.jpg',
-        'p1-6.jpg',
-        'p2-1.png',
-        'p2-2.jpg',
-        'p2-3.jpg',
-        'p2-4.jpg',
-        'p2-5.jpg',
-        'p2-6.jpg',
-        'p3-1.jpg',
-        'p3-2.jpg',
-        'p3-3.jpg',
-        'p3-4.jpg',
-        'p3-6.jpg',
-        'p3-5.jpg',
-        'p4-1.jpg',
-        'p4-2.jpg',
-        'p4-3.jpg',
-        'p4-4.jpg',
-        'p4-5.jpg',
+function ProjectLocation() {
 
-    ];
+const images = [
+'loc-1.jpg',
+'loc-2.jpg',
+'loc-3.jpg',
+'loc-4.jpg',
+'loc-5.jpg',
+'loc-6.jpg',
+'loc-7.jpg',
+'loc-8.jpg',
+'loc-9.jpg',
+'loc-10.jpg',
+];
 
-    const [selectedIndex, setSelectedIndex] = useState(null);
+ const [selectedIndex, setSelectedIndex] = useState(null);
 
     const openModal = (index) => {
         setSelectedIndex(index);
@@ -68,12 +36,15 @@ function Pictures() {
         setSelectedIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
     };
 
-    return (
-        <>
-            <h1 className="pictures">GALLERY</h1>
-            
-            {/* Display all images */}
-            <div className="image-gallery">
+  return (
+    <>
+    <h1 className="project-location-container">PROJECT LOCATION</h1>
+    <p className='location-description'>Youtopia Riverside, just outside Stara Zagora, Bulgaria, is a cozy and recently renovated space that’s perfect for group projects and events. It has plenty of clean, comfortable rooms with towels provided, a fully equipped kitchen, and a big activity room where workshops are held. The house is surrounded by nature, offering peace and quiet, but it’s still close to the city for convenience.
+
+For meals, Salt and Pepper Restaurant in Stara Zagora is the daily caterer for our projects, serving delicious and varied dishes. On some days, we mix things up with Chinese food or pizza. There’s also a pool and a jacuzzi, so don’t forget to bring your swimsuits for some fun and relaxation during your stay!</p>
+    
+    {/* Display all images */}
+    <div className="image-gallery">
                 {images.map((image, index) => (
                     <div key={index} className="image-item">
                         <img 
@@ -102,9 +73,9 @@ function Pictures() {
                 </div>
             )}
 
-            <Footer />
-        </>
-    );
+    <Footer />
+    </>
+  )
 }
 
-export default Pictures;
+export default ProjectLocation;

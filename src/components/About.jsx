@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faHandshake, faRecycle, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faHandshake, faRecycle, faUsers, faMinus } from '@fortawesome/free-solid-svg-icons';
 import './About.css'; 
 
 function About() {
@@ -39,7 +39,7 @@ function About() {
     <>
       <div className="about-container">
         <div>
-        <h1>C:E:T PLATFORM BULGARIA</h1>
+        <h1>CET PLATFORM BULGARIA</h1>
         <p>
           CET Platform Bulgaria is a dedicated non-profit organization committed to fostering the development of civil society,
           promoting democratic values, and empowering youth through non-formal education. Established with the mission to provide
@@ -59,6 +59,7 @@ function About() {
       <div className="content-container">
         <div className="text-content">
         <h2>Guiding Principles That Define Us</h2>
+        <FontAwesomeIcon icon={faMinus} className='icon'/>
         <p>
           At CET Platform Bulgaria, we are driven by core values that inspire and guide our work with youth and communities.
         </p>
@@ -110,19 +111,25 @@ function About() {
     {/* every user separately */}
     <div className='user-feedback-item'>
       <img src="user-1.jpg" alt="" />
-      <p>"These projects are open doors to innovation, connecting with life in new ways, new cultures, new people, new knowledge, and much more that brings you closer to reality and growth."</p>
+      <p>"These projects are open doors to innovation, connecting with life in new ways, new cultures, new people, new knowledge, and much more that brings you closer to reality and growth. Great organizational team and project venue"</p>
+      <FontAwesomeIcon icon={faMinus} className='icon'/>
+
      <p><b>Andra - Participant on three projects</b></p>
     </div>
 
     <div className='user-feedback-item'>
       <img src="user-2.jpg" alt="" />
       <p>"Being part of CET Platform Bulgaria’s projects has been incredible! The organization truly empowers youth by providing opportunities to grow, learn, and connect with like-minded individuals from around the world"</p>
+      <FontAwesomeIcon icon={faMinus} className='icon'/>
+
       <p><b>Teresa - Polish Participant</b></p>
     </div>
 
 <div className='user-feedback-item'>
   <img src="user-3.jpg" alt="" />
-  <p>"I participated in 2 exchanges of CET. As a person having wide experience with Erasmus+ I can swear that you won’t find higher quality of Erasmus projects. Organisation with due diligence care about participants and Amazing venue,as well as well chosen facilitator make this experience a memory till the end of your life."</p>
+  <p>"I participated in 2 exchanges of CET. As a person having wide experience with Erasmus+ I can swear that you won’t find higher quality of Erasmus projects. Organisation with due diligence care about participants and Amazing venue."</p>
+  <FontAwesomeIcon icon={faMinus} className='icon'/>
+
   <p><b>Dawid - Participant on two projects</b></p>
 </div>
 

@@ -51,13 +51,13 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <img src="output-onlinepngtools.png" alt="C:E:T Platform Logo" />
+              <img src="/output-onlinepngtools.png" alt="C:E:T Platform Logo" />
             </Link>
           </div>
         
           <small className="website-rights">CET Platform © 2024</small>
           <div className="european-logo">
-          <img src="EN_Co-fundedbytheEU_RGB_WHITE.png" alt="european logo" />
+          <img src="/EN_Co-fundedbytheEU_RGB_WHITE.png" alt="european logo" />
         </div>
         
         </div>

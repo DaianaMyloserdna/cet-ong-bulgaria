@@ -16,7 +16,7 @@ function HeroSection( {onHide}) {
   return (
     <div className='hero-container'>
 
-        <h1>Welcome to C:E:T Platform</h1>
+        <h1>Welcome to CET Platform</h1>
         <p>What are you waiting for?</p>
         <div className="hero-btns">
             <Button className='btns' buttonStyle='btn--outline' butttonSize='btn--large'

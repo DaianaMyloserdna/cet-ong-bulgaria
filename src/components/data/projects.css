@@ -14,7 +14,7 @@
 
 }
 .project-details h1{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 40px;
     margin-top: 5%;
 }
@@ -36,16 +36,14 @@
     flex-direction: row;
     margin-top: 70px;
 }
-.project-goals h2{
+/* .project-goals h2{
     text-decoration: overline;
 
-}
+} */
 .project-goals p{
   width: 70%;
 }
-.project-four-goals h2{
-    text-decoration: overline;
-}
+
 .project-four-goals {
     width: 90%;  
 }
@@ -70,7 +68,26 @@
     max-width: 80%; /* Limit the width of the container */
     text-align: center;
 }
-
+.project-imgs {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap onto the next row */
+    gap: 16px; 
+    justify-content: center; /* Center images horizontally */
+    padding: 16px; 
+  }
+  
+  .project-imgs img {
+    width: calc(33.333% - 16px); /* Adjust size to fit three per row with a gap */
+    height: auto; 
+    object-fit: cover; /* Ensure the images fill their boxes */
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .project-imgs img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
 @media screen and (max-width: 960px) {
     .project-details h1{
         margin-top: 5%;

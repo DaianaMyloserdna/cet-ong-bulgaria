@@ -1,6 +1,5 @@
 /* Image gallery */
 .pictures{
-    text-decoration: underline;
     font-size: 40px;
     margin-top: 5%;
   text-align: center;
@@ -80,4 +79,16 @@
 .next-button {
     position: absolute;
     right: 10px;
+}
+@media screen and (max-width: 768px){
+    .pictures{
+       
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 480px){
+    .pictures{
+        font-size: 30px;
+        margin-top: 50px;
+    }
 }

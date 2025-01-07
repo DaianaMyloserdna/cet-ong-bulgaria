@@ -1,45 +1,4 @@
-// import React from 'react'
-// import CardItem from './CardItem';
-// import './Cards.css';
 
-// function Cards() {
-//   return (
-//     <div className='cards'>
-//         <h2>Check out these NICE Projects</h2>
-//         <div className="cards__container">
-//             <div className="cards__wrapper">
-//                 <ul className="cards__items">
-//                     <CardItem 
-//                      src='Cultivating skills.jpg'
-//                      text='Read more...'
-//                      path='/project-one'
-//                     />
-//                     <CardItem 
-//                     src='Digital-creativity.png'
-//                     text='Read more...'
-//                     path='/project-2'
-//                     />
-//                     <CardItem 
-//                     src='Our Stories - Our Stage.jpg'
-//                     text='Read more...'
-//                     path='/project-3'
-//                     />
-//                     <CardItem 
-//                     src='the-state-of-mind.jpg'
-//                     text='Read more...'
-//                     path='/project-4'
-//                     />
-
-
-
-//                 </ul>
-//             </div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Cards;
 
 
 import React, { useState } from 'react';
@@ -58,7 +17,7 @@ function Cards() {
 
   return (
     <div className="cards">
-      <h2>Check out these NICE Projects</h2>
+      <h1>OUR PROJECTS</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           {!selectedProject ? (
